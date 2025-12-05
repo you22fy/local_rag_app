@@ -10,6 +10,20 @@
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
+		4A5632BF2EE2EDD8005EF259 /* libllama.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5632BD2EE2EDD8005EF259 /* libllama.dylib */; };
+		4A5632C02EE2EDD8005EF259 /* libggml-base.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5632B92EE2EDD8005EF259 /* libggml-base.dylib */; };
+		4A5632C12EE2EDD8005EF259 /* libggml-blas.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5632BA2EE2EDD8005EF259 /* libggml-blas.dylib */; };
+		4A5632C22EE2EDD8005EF259 /* libggml-cpu.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5632BB2EE2EDD8005EF259 /* libggml-cpu.dylib */; };
+		4A5632C32EE2EDD8005EF259 /* libggml.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5632B82EE2EDD8005EF259 /* libggml.dylib */; };
+		4A5632C42EE2EDD8005EF259 /* libmtmd.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5632BE2EE2EDD8005EF259 /* libmtmd.dylib */; };
+		4A5632C52EE2EDD8005EF259 /* libggml-metal.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5632BC2EE2EDD8005EF259 /* libggml-metal.dylib */; };
+		4A5632C62EE2EDE7005EF259 /* libggml-base.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5632B92EE2EDD8005EF259 /* libggml-base.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4A5632C72EE2EE16005EF259 /* libggml-blas.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5632BA2EE2EDD8005EF259 /* libggml-blas.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4A5632C82EE2EE17005EF259 /* libggml-cpu.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5632BB2EE2EDD8005EF259 /* libggml-cpu.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4A5632C92EE2EE18005EF259 /* libggml-metal.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5632BC2EE2EDD8005EF259 /* libggml-metal.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4A5632CA2EE2EE1A005EF259 /* libggml.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5632B82EE2EDD8005EF259 /* libggml.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4A5632CB2EE2EE1C005EF259 /* libllama.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5632BD2EE2EDD8005EF259 /* libllama.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4A5632CC2EE2EE1E005EF259 /* libmtmd.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5632BE2EE2EDD8005EF259 /* libmtmd.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		544DFDF104FA93B7D05D4BAD /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12443721824EAF986DB92902 /* Pods_RunnerTests.framework */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
@@ -35,6 +49,13 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				4A5632C62EE2EDE7005EF259 /* libggml-base.dylib in Embed Frameworks */,
+				4A5632CA2EE2EE1A005EF259 /* libggml.dylib in Embed Frameworks */,
+				4A5632C72EE2EE16005EF259 /* libggml-blas.dylib in Embed Frameworks */,
+				4A5632CC2EE2EE1E005EF259 /* libmtmd.dylib in Embed Frameworks */,
+				4A5632C82EE2EE17005EF259 /* libggml-cpu.dylib in Embed Frameworks */,
+				4A5632CB2EE2EE1C005EF259 /* libllama.dylib in Embed Frameworks */,
+				4A5632C92EE2EE18005EF259 /* libggml-metal.dylib in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,6 +74,13 @@
 		331C8081294A63A400263BE5 /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
 		43F164EAFABC1B4017495650 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		4A5632B82EE2EDD8005EF259 /* libggml.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libggml.dylib; sourceTree = "<group>"; };
+		4A5632B92EE2EDD8005EF259 /* libggml-base.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libggml-base.dylib"; sourceTree = "<group>"; };
+		4A5632BA2EE2EDD8005EF259 /* libggml-blas.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libggml-blas.dylib"; sourceTree = "<group>"; };
+		4A5632BB2EE2EDD8005EF259 /* libggml-cpu.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libggml-cpu.dylib"; sourceTree = "<group>"; };
+		4A5632BC2EE2EDD8005EF259 /* libggml-metal.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libggml-metal.dylib"; sourceTree = "<group>"; };
+		4A5632BD2EE2EDD8005EF259 /* libllama.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libllama.dylib; sourceTree = "<group>"; };
+		4A5632BE2EE2EDD8005EF259 /* libmtmd.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libmtmd.dylib; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		799122A76FFDD8D8DC760034 /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +109,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C72037077BEC6F6D7C1920CF /* Pods_Runner.framework in Frameworks */,
+				4A5632BF2EE2EDD8005EF259 /* libllama.dylib in Frameworks */,
+				4A5632C02EE2EDD8005EF259 /* libggml-base.dylib in Frameworks */,
+				4A5632C12EE2EDD8005EF259 /* libggml-blas.dylib in Frameworks */,
+				4A5632C22EE2EDD8005EF259 /* libggml-cpu.dylib in Frameworks */,
+				4A5632C32EE2EDD8005EF259 /* libggml.dylib in Frameworks */,
+				4A5632C42EE2EDD8005EF259 /* libmtmd.dylib in Frameworks */,
+				4A5632C52EE2EDD8005EF259 /* libggml-metal.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +140,6 @@
 				0688295A2B40973532305B7A /* Pods-RunnerTests.release.xcconfig */,
 				799122A76FFDD8D8DC760034 /* Pods-RunnerTests.profile.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -138,6 +172,13 @@
 				331C8082294A63A400263BE5 /* RunnerTests */,
 				6365059BC4D97360B82BADF1 /* Pods */,
 				652A23B4FC4FC05BC05601C0 /* Frameworks */,
+				4A5632B82EE2EDD8005EF259 /* libggml.dylib */,
+				4A5632B92EE2EDD8005EF259 /* libggml-base.dylib */,
+				4A5632BA2EE2EDD8005EF259 /* libggml-blas.dylib */,
+				4A5632BB2EE2EDD8005EF259 /* libggml-cpu.dylib */,
+				4A5632BC2EE2EDD8005EF259 /* libggml-metal.dylib */,
+				4A5632BD2EE2EDD8005EF259 /* libllama.dylib */,
+				4A5632BE2EE2EDD8005EF259 /* libmtmd.dylib */,
 			);
 			sourceTree = "<group>";
 		};
@@ -478,6 +519,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -661,6 +706,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -683,6 +732,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
